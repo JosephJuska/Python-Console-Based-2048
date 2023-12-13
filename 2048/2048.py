@@ -1,4 +1,5 @@
 # MAIN IMPORT
+from os import system
 try:
     from pynput import keyboard
 
@@ -11,7 +12,7 @@ try:
 except:
     system('pip install colorama')        
 
-from os import system, name
+from os import name
 from os.path import dirname, abspath, join
 from copy import deepcopy
 from random import randint, choice

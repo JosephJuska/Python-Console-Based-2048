@@ -17,6 +17,9 @@ from copy import deepcopy
 from random import randint, choice
 from time import time, sleep
 import json
+from pynput import keyboard
+from colorama import Fore, Style
+
 
 # END MAIN IMPORT
 

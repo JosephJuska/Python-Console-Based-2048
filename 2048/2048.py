@@ -108,7 +108,7 @@ def merge(board, direction, value):
             for j in range(-2, (len(board) * -1) - 1, -1):
                 while j < -1:
                     if board[j+1][i] == board[j][i] and board[j][i] != 0:
-                        board[j+1][i] += value
+                        board[j+1][i] *= value
                         board[j][i] = 0
 
                     j += 1                                              
